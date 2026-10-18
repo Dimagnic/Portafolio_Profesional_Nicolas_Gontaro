@@ -224,6 +224,7 @@ export function Footer({ c }: { c: SiteContent }) {
         <div className="footer-brand">
           <img className="footer-logo" src="/img/cero-logo-blanco.png" alt="Cero+" />
           <p>{f.tagline}</p>
+          <p style={{ marginTop: '0.8rem' }}>Av. 2 Oriente 811, Col. Centro, Puebla</p>
           <a className="footer-mail" href={`mailto:${c.contact.emailHref}`}>{c.contact.email}</a>
           <a className="footer-wa" href={c.floating.whatsapp.url} target="_blank" rel="noopener noreferrer">WhatsApp: {c.contact.phone}</a>
           <div className="footer-social">
@@ -245,11 +246,11 @@ export function Footer({ c }: { c: SiteContent }) {
         <div className="footer-col">
           <h5>Servicios</h5>
           <ul>
-            <li>Sitios web y landing pages</li>
-            <li>Aplicaciones React + TypeScript</li>
-            <li>Bases de datos con Supabase</li>
-            <li>Asistentes con IA (ClienteAI)</li>
-            <li>Despliegue en Vercel</li>
+            <li>Landing page y menú digital con QR</li>
+            <li>Sitio web empresarial</li>
+            <li>Catálogos, citas y reservaciones</li>
+            <li>Tienda en línea</li>
+            <li>Sistemas a la medida: CRM, POS, ERP</li>
           </ul>
         </div>
         <div className="footer-col">
